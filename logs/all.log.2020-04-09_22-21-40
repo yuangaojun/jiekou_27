@@ -1,0 +1,379 @@
+2020-04-09 22:21:40,476 - [test_add.py-->line:92] - ERROR: 用例名称：member_id为空，测试结果：Pass
+2020-04-09 22:21:41,836 - [test_add.py-->line:95] - ERROR: 用例名称：member_id不为整数，测试结果Fail：
+2 != 0
+2020-04-09 22:21:41,837 - [test_add.py-->line:96] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "F:\lemonban\lianxi\untitled\testcase\test_add.py", line 81, in test_add
+    self.assertEqual(expected['code'], response['code'])
+  File "D:\xuexitools\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\xuexitools\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2020-04-09 22:21:43,205 - [test_add.py-->line:92] - ERROR: 用例名称：标题title为空，测试结果：Pass
+2020-04-09 22:21:44,532 - [test_add.py-->line:95] - ERROR: 用例名称：标题title不为字符串，测试结果Fail：
+2 != 0
+2020-04-09 22:21:44,532 - [test_add.py-->line:96] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "F:\lemonban\lianxi\untitled\testcase\test_add.py", line 81, in test_add
+    self.assertEqual(expected['code'], response['code'])
+  File "D:\xuexitools\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\xuexitools\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2020-04-09 22:21:45,839 - [test_add.py-->line:92] - ERROR: 用例名称：金额amount为空，测试结果：Pass
+2020-04-09 22:21:47,357 - [test_add.py-->line:92] - ERROR: 用例名称：年利率loan_rate小于0，测试结果：Pass
+2020-04-09 22:21:48,708 - [test_add.py-->line:92] - ERROR: 用例名称：年利率loan_rate等于0，测试结果：Pass
+2020-04-09 22:22:00,002 - [test_add.py-->line:92] - ERROR: 用例名称：年利率loan_rate大于0小于24，测试结果：Pass
+2020-04-09 22:22:09,663 - [test_add.py-->line:92] - ERROR: 用例名称：年利率loan_rate等于24，测试结果：Pass
+2020-04-09 22:22:10,083 - [test_add.py-->line:92] - ERROR: 用例名称：年利率loan_rate大于24，测试结果：Pass
+2020-04-09 22:22:10,496 - [test_add.py-->line:95] - ERROR: 用例名称：借款期限loan_term不为整数，测试结果Fail：
+2 != 0
+2020-04-09 22:22:10,496 - [test_add.py-->line:96] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "F:\lemonban\lianxi\untitled\testcase\test_add.py", line 81, in test_add
+    self.assertEqual(expected['code'], response['code'])
+  File "D:\xuexitools\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\xuexitools\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2020-04-09 22:22:10,925 - [test_add.py-->line:95] - ERROR: 用例名称：借款期限类型loan_date_type不为整数，测试结果Fail：
+2 != 0
+2020-04-09 22:22:10,926 - [test_add.py-->line:96] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "F:\lemonban\lianxi\untitled\testcase\test_add.py", line 81, in test_add
+    self.assertEqual(expected['code'], response['code'])
+  File "D:\xuexitools\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\xuexitools\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2020-04-09 22:22:11,344 - [test_add.py-->line:95] - ERROR: 用例名称：借款期限loan_date_type不为数值，测试结果Fail：
+2 != 1004
+2020-04-09 22:22:11,344 - [test_add.py-->line:96] - ERROR: 2 != 1004
+Traceback (most recent call last):
+  File "F:\lemonban\lianxi\untitled\testcase\test_add.py", line 81, in test_add
+    self.assertEqual(expected['code'], response['code'])
+  File "D:\xuexitools\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\xuexitools\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 1004
+2020-04-09 22:22:11,837 - [test_add.py-->line:92] - ERROR: 用例名称：借款期限loan_date_type为不存在的，测试结果：Pass
+2020-04-09 22:22:12,247 - [test_add.py-->line:92] - ERROR: 用例名称：竞标天数bidding_days小于1，测试结果：Pass
+2020-04-09 22:22:12,680 - [test_add.py-->line:92] - ERROR: 用例名称：竞标天数bidding_days大于10，测试结果：Pass
+2020-04-09 22:22:13,085 - [test_add.py-->line:92] - ERROR: 用例名称：竞标天数bidding_days大于0小于10，测试结果：Pass
+2020-04-09 22:22:17,698 - [test_login.py-->line:47] - INFO: 用例：登录成功，执行结果:PASS
+
+2020-04-09 22:22:18,312 - [test_login.py-->line:47] - INFO: 用例：错误的手机号-正确的密码，执行结果:PASS
+
+2020-04-09 22:22:18,908 - [test_login.py-->line:47] - INFO: 用例：正确的手机号-错误的密码，执行结果:PASS
+
+2020-04-09 22:22:19,309 - [test_login.py-->line:51] - ERROR: 用例：手机号码为空，执行结果:Fail，错误信息：1 != 2
+2020-04-09 22:22:19,309 - [test_login.py-->line:52] - DEBUG: 预期结果：{'code': 1, 'msg': '手机号码为空'}
+2020-04-09 22:22:19,310 - [test_login.py-->line:53] - DEBUG: 实际结果：{'code': 2, 'msg': '手机号码为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-04-09 22:22:19,310 - [test_login.py-->line:54] - ERROR: 1 != 2
+Traceback (most recent call last):
+  File "F:\lemonban\lianxi\untitled\testcase\test_login.py", line 44, in test_login
+    self.assertEqual(expected['code'], res['code'])
+  File "D:\xuexitools\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\xuexitools\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 2
+2020-04-09 22:22:19,760 - [test_login.py-->line:51] - ERROR: 用例：密码为空，执行结果:Fail，错误信息：1 != 2
+2020-04-09 22:22:19,760 - [test_login.py-->line:52] - DEBUG: 预期结果：{'code': 1, 'msg': '密码为空'}
+2020-04-09 22:22:19,760 - [test_login.py-->line:53] - DEBUG: 实际结果：{'code': 2, 'msg': '密码为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-04-09 22:22:19,760 - [test_login.py-->line:54] - ERROR: 1 != 2
+Traceback (most recent call last):
+  File "F:\lemonban\lianxi\untitled\testcase\test_login.py", line 44, in test_login
+    self.assertEqual(expected['code'], res['code'])
+  File "D:\xuexitools\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\xuexitools\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 2
+2020-04-09 22:22:20,319 - [test_recharge.py-->line:86] - INFO: 用例：充值成功，执行结果:PASS
+
+2020-04-09 22:22:20,947 - [test_recharge.py-->line:86] - INFO: 用例：充值成功-金额小于2位数，执行结果:PASS
+
+2020-04-09 22:22:21,424 - [test_recharge.py-->line:86] - INFO: 用例：充值成功-金额小等于2位数，执行结果:PASS
+
+2020-04-09 22:22:21,834 - [test_recharge.py-->line:86] - INFO: 用例：menber_id为空，执行结果:PASS
+
+2020-04-09 22:22:22,267 - [test_recharge.py-->line:90] - ERROR: 用例：menber_id不为整数，执行结果:Fail，错误信息1 != 0
+2020-04-09 22:22:22,267 - [test_recharge.py-->line:91] - DEBUG: 预期结果：{'code': 1, 'msg': '用户id为空'}
+2020-04-09 22:22:22,267 - [test_recharge.py-->line:92] - DEBUG: 实际结果：{'code': 0, 'msg': 'OK', 'data': {'id': 281, 'leave_amount': 97765564.43, 'mobile_phone': '13367899876', 'reg_name': '小柠檬666', 'reg_time': '2020-02-29 14:18:43.0', 'type': 1}, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-04-09 22:22:22,267 - [test_recharge.py-->line:93] - ERROR: 1 != 0
+Traceback (most recent call last):
+  File "F:\lemonban\lianxi\untitled\testcase\test_recharge.py", line 78, in test_recharge
+    self.assertEqual(excepted['code'], res['code'])
+  File "D:\xuexitools\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\xuexitools\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 0
+2020-04-09 22:22:22,683 - [test_recharge.py-->line:86] - INFO: 用例：menber_id不存在，执行结果:PASS
+
+2020-04-09 22:22:23,081 - [test_recharge.py-->line:90] - ERROR: 用例：充值金额为空，执行结果:Fail，错误信息1 != 2
+2020-04-09 22:22:23,081 - [test_recharge.py-->line:91] - DEBUG: 预期结果：{'code': 1, 'msg': '数字格式化异常'}
+2020-04-09 22:22:23,081 - [test_recharge.py-->line:92] - DEBUG: 实际结果：{'code': 2, 'msg': '数字格式化异常', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-04-09 22:22:23,081 - [test_recharge.py-->line:93] - ERROR: 1 != 2
+Traceback (most recent call last):
+  File "F:\lemonban\lianxi\untitled\testcase\test_recharge.py", line 78, in test_recharge
+    self.assertEqual(excepted['code'], res['code'])
+  File "D:\xuexitools\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\xuexitools\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 2
+2020-04-09 22:22:23,532 - [test_recharge.py-->line:90] - ERROR: 用例：充值金额为负数，执行结果:Fail，错误信息'金额必须大于0并且小于或者等于500000' != '余额必须大于0并且小于或者等于500000'
+- 金额必须大于0并且小于或者等于500000
+? ^
++ 余额必须大于0并且小于或者等于500000
+? ^
+
+2020-04-09 22:22:23,532 - [test_recharge.py-->line:91] - DEBUG: 预期结果：{'code': 2, 'msg': '金额必须大于0并且小于或者等于500000'}
+2020-04-09 22:22:23,532 - [test_recharge.py-->line:92] - DEBUG: 实际结果：{'code': 2, 'msg': '余额必须大于0并且小于或者等于500000', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-04-09 22:22:23,532 - [test_recharge.py-->line:93] - ERROR: '金额必须大于0并且小于或者等于500000' != '余额必须大于0并且小于或者等于500000'
+- 金额必须大于0并且小于或者等于500000
+? ^
++ 余额必须大于0并且小于或者等于500000
+? ^
+
+Traceback (most recent call last):
+  File "F:\lemonban\lianxi\untitled\testcase\test_recharge.py", line 79, in test_recharge
+    self.assertEqual(excepted['msg'], res['msg'])
+  File "D:\xuexitools\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\xuexitools\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\xuexitools\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '金额必须大于0并且小于或者等于500000' != '余额必须大于0并且小于或者等于500000'
+- 金额必须大于0并且小于或者等于500000
+? ^
++ 余额必须大于0并且小于或者等于500000
+? ^
+
+2020-04-09 22:22:24,007 - [test_recharge.py-->line:86] - INFO: 用例：充值金额为0，执行结果:PASS
+
+2020-04-09 22:22:24,511 - [test_recharge.py-->line:86] - INFO: 用例：充值金额为500000，执行结果:PASS
+
+2020-04-09 22:22:24,949 - [test_recharge.py-->line:90] - ERROR: 用例：充值金额为大于500000，执行结果:Fail，错误信息'金额必须大于0并且小于或者等于500000' != '余额必须大于0并且小于或者等于500000'
+- 金额必须大于0并且小于或者等于500000
+? ^
++ 余额必须大于0并且小于或者等于500000
+? ^
+
+2020-04-09 22:22:24,949 - [test_recharge.py-->line:91] - DEBUG: 预期结果：{'code': 2, 'msg': '金额必须大于0并且小于或者等于500000'}
+2020-04-09 22:22:24,949 - [test_recharge.py-->line:92] - DEBUG: 实际结果：{'code': 2, 'msg': '余额必须大于0并且小于或者等于500000', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-04-09 22:22:24,949 - [test_recharge.py-->line:93] - ERROR: '金额必须大于0并且小于或者等于500000' != '余额必须大于0并且小于或者等于500000'
+- 金额必须大于0并且小于或者等于500000
+? ^
++ 余额必须大于0并且小于或者等于500000
+? ^
+
+Traceback (most recent call last):
+  File "F:\lemonban\lianxi\untitled\testcase\test_recharge.py", line 79, in test_recharge
+    self.assertEqual(excepted['msg'], res['msg'])
+  File "D:\xuexitools\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\xuexitools\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\xuexitools\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '金额必须大于0并且小于或者等于500000' != '余额必须大于0并且小于或者等于500000'
+- 金额必须大于0并且小于或者等于500000
+? ^
++ 余额必须大于0并且小于或者等于500000
+? ^
+
+2020-04-09 22:22:25,349 - [test_recharge.py-->line:90] - ERROR: 用例：充值金额为大于2位小数，执行结果:Fail，错误信息'金额小数超过两位' != '余额小数超过两位'
+- 金额小数超过两位
+? ^
++ 余额小数超过两位
+? ^
+
+2020-04-09 22:22:25,349 - [test_recharge.py-->line:91] - DEBUG: 预期结果：{'code': 2, 'msg': '金额小数超过两位'}
+2020-04-09 22:22:25,349 - [test_recharge.py-->line:92] - DEBUG: 实际结果：{'code': 2, 'msg': '余额小数超过两位', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-04-09 22:22:25,349 - [test_recharge.py-->line:93] - ERROR: '金额小数超过两位' != '余额小数超过两位'
+- 金额小数超过两位
+? ^
++ 余额小数超过两位
+? ^
+
+Traceback (most recent call last):
+  File "F:\lemonban\lianxi\untitled\testcase\test_recharge.py", line 79, in test_recharge
+    self.assertEqual(excepted['msg'], res['msg'])
+  File "D:\xuexitools\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\xuexitools\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\xuexitools\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '金额小数超过两位' != '余额小数超过两位'
+- 金额小数超过两位
+? ^
++ 余额小数超过两位
+? ^
+
+2020-04-09 22:22:26,578 - [test_register.py-->line:59] - INFO: 用例：注册成功，执行结果:PASS
+
+2020-04-09 22:22:27,178 - [test_register.py-->line:59] - INFO: 用例：账号已存在，执行结果:PASS
+
+2020-04-09 22:22:27,612 - [test_register.py-->line:59] - INFO: 用例：手机号码为空，执行结果:PASS
+
+2020-04-09 22:22:28,056 - [test_register.py-->line:59] - INFO: 用例：异常手机号码（超过11位），执行结果:PASS
+
+2020-04-09 22:22:28,469 - [test_register.py-->line:59] - INFO: 用例：异常手机号码（格式为非数字），执行结果:PASS
+
+2020-04-09 22:22:28,864 - [test_register.py-->line:59] - INFO: 用例：异常手机号码（格式为数字+非数字），执行结果:PASS
+
+2020-04-09 22:22:29,814 - [test_register.py-->line:59] - INFO: 用例：手机号为非字符串格式，执行结果:PASS
+
+2020-04-09 22:22:30,260 - [test_register.py-->line:59] - INFO: 用例：密码为空，执行结果:PASS
+
+2020-04-09 22:22:30,652 - [test_register.py-->line:59] - INFO: 用例：密码小于6位数，执行结果:PASS
+
+2020-04-09 22:22:31,053 - [test_register.py-->line:59] - INFO: 用例：密码大于16位数，执行结果:PASS
+
+2020-04-09 22:22:31,452 - [test_register.py-->line:59] - INFO: 用例：手机号码-密码同时为空，执行结果:PASS
+
+2020-04-09 22:22:32,375 - [test_register.py-->line:59] - INFO: 用例：类型type为空，执行结果:PASS
+
+2020-04-09 22:22:32,875 - [test_register.py-->line:59] - INFO: 用例：类型type为文档未标注类型，执行结果:PASS
+
+2020-04-09 22:22:33,825 - [test_register.py-->line:59] - INFO: 用例：注册名为空，执行结果:PASS
+
+2020-04-09 22:22:34,413 - [test_withdraw.py-->line:95] - ERROR: 用例名称：member_id为空，测试结果：Pass
+2020-04-09 22:22:34,911 - [test_withdraw.py-->line:95] - ERROR: 用例名称：member_id不存在，测试结果：Pass
+2020-04-09 22:22:35,640 - [test_withdraw.py-->line:98] - ERROR: 用例名称：member_id不为字符串格式，测试结果Fail：
+2 != 0
+2020-04-09 22:22:35,640 - [test_withdraw.py-->line:99] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "F:\lemonban\lianxi\untitled\testcase\test_withdraw.py", line 86, in test_withdraw
+    self.assertEqual(expected['code'], response['code'])
+  File "D:\xuexitools\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\xuexitools\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2020-04-09 22:22:36,342 - [test_withdraw.py-->line:98] - ERROR: 用例名称：提现金额为空，测试结果Fail：
+'金额为空' != '余额为空'
+- 金额为空
+? ^
++ 余额为空
+? ^
+
+2020-04-09 22:22:36,342 - [test_withdraw.py-->line:99] - ERROR: '金额为空' != '余额为空'
+- 金额为空
+? ^
++ 余额为空
+? ^
+Traceback (most recent call last):
+  File "F:\lemonban\lianxi\untitled\testcase\test_withdraw.py", line 87, in test_withdraw
+    self.assertEqual(expected['msg'], response['msg'])
+  File "D:\xuexitools\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\xuexitools\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\xuexitools\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '金额为空' != '余额为空'
+- 金额为空
+? ^
++ 余额为空
+? ^
+
+2020-04-09 22:22:36,788 - [test_withdraw.py-->line:98] - ERROR: 用例名称：提现金额小于0，测试结果Fail：
+'金额必须大于0并且小于或者等于5000000' != '余额必须大于0并且小于或者等于5000000'
+- 金额必须大于0并且小于或者等于5000000
+? ^
++ 余额必须大于0并且小于或者等于5000000
+? ^
+
+2020-04-09 22:22:36,788 - [test_withdraw.py-->line:99] - ERROR: '金额必须大于0并且小于或者等于5000000' != '余额必须大于0并且小于或者等于5000000'
+- 金额必须大于0并且小于或者等于5000000
+? ^
++ 余额必须大于0并且小于或者等于5000000
+? ^
+Traceback (most recent call last):
+  File "F:\lemonban\lianxi\untitled\testcase\test_withdraw.py", line 87, in test_withdraw
+    self.assertEqual(expected['msg'], response['msg'])
+  File "D:\xuexitools\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\xuexitools\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\xuexitools\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '金额必须大于0并且小于或者等于5000000' != '余额必须大于0并且小于或者等于5000000'
+- 金额必须大于0并且小于或者等于5000000
+? ^
++ 余额必须大于0并且小于或者等于5000000
+? ^
+
+2020-04-09 22:22:37,236 - [test_withdraw.py-->line:98] - ERROR: 用例名称：提现金额等于0，测试结果Fail：
+2 != 0
+2020-04-09 22:22:37,236 - [test_withdraw.py-->line:99] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "F:\lemonban\lianxi\untitled\testcase\test_withdraw.py", line 86, in test_withdraw
+    self.assertEqual(expected['code'], response['code'])
+  File "D:\xuexitools\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\xuexitools\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2020-04-09 22:22:37,762 - [test_withdraw.py-->line:95] - ERROR: 用例名称：提现金额大于0小于账户余额，测试结果：Pass
+2020-04-09 22:22:38,212 - [test_withdraw.py-->line:95] - ERROR: 用例名称：提现金额大于0小于账户余额-小于2位小数，测试结果：Pass
+2020-04-09 22:22:38,836 - [test_withdraw.py-->line:95] - ERROR: 用例名称：提现金额大于0小于账户余额-等于2位小数，测试结果：Pass
+2020-04-09 22:22:39,250 - [test_withdraw.py-->line:98] - ERROR: 用例名称：提现金额大于0小于账户余额-大于2位小数，测试结果Fail：
+'金额小数超过两位' != '余额小数超过两位'
+- 金额小数超过两位
+? ^
++ 余额小数超过两位
+? ^
+
+2020-04-09 22:22:39,250 - [test_withdraw.py-->line:99] - ERROR: '金额小数超过两位' != '余额小数超过两位'
+- 金额小数超过两位
+? ^
++ 余额小数超过两位
+? ^
+Traceback (most recent call last):
+  File "F:\lemonban\lianxi\untitled\testcase\test_withdraw.py", line 87, in test_withdraw
+    self.assertEqual(expected['msg'], response['msg'])
+  File "D:\xuexitools\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\xuexitools\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\xuexitools\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '金额小数超过两位' != '余额小数超过两位'
+- 金额小数超过两位
+? ^
++ 余额小数超过两位
+? ^
+
+2020-04-09 22:22:39,858 - [test_withdraw.py-->line:98] - ERROR: 用例名称：提现金额大于账户余额，测试结果Fail：
+'账户余额不足' != '余额小数超过两位'
+- 账户余额不足
++ 余额小数超过两位
+
+2020-04-09 22:22:39,858 - [test_withdraw.py-->line:99] - ERROR: '账户余额不足' != '余额小数超过两位'
+- 账户余额不足
++ 余额小数超过两位
+Traceback (most recent call last):
+  File "F:\lemonban\lianxi\untitled\testcase\test_withdraw.py", line 87, in test_withdraw
+    self.assertEqual(expected['msg'], response['msg'])
+  File "D:\xuexitools\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\xuexitools\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\xuexitools\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '账户余额不足' != '余额小数超过两位'
+- 账户余额不足
++ 余额小数超过两位
+

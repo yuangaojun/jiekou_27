@@ -1,0 +1,27 @@
+2020-04-09 22:22:40,451 - [test_withdraw.py-->line:98] - ERROR: 用例名称：提现金额小于账户余额大于500000，测试结果Fail：
+'金额必须大于0并且小于或者等于5000000' != '余额必须大于0并且小于或者等于5000000'
+- 金额必须大于0并且小于或者等于5000000
+? ^
++ 余额必须大于0并且小于或者等于5000000
+? ^
+
+2020-04-09 22:22:40,452 - [test_withdraw.py-->line:99] - ERROR: '金额必须大于0并且小于或者等于5000000' != '余额必须大于0并且小于或者等于5000000'
+- 金额必须大于0并且小于或者等于5000000
+? ^
++ 余额必须大于0并且小于或者等于5000000
+? ^
+Traceback (most recent call last):
+  File "F:\lemonban\lianxi\untitled\testcase\test_withdraw.py", line 87, in test_withdraw
+    self.assertEqual(expected['msg'], response['msg'])
+  File "D:\xuexitools\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\xuexitools\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\xuexitools\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '金额必须大于0并且小于或者等于5000000' != '余额必须大于0并且小于或者等于5000000'
+- 金额必须大于0并且小于或者等于5000000
+? ^
++ 余额必须大于0并且小于或者等于5000000
+? ^
+
